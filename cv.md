@@ -44,4 +44,3 @@ y = t
 <h1 id="languages">LANGUAGES:</h1>
 <p>Russian - Native</p>
 <p>English - A1 according to the test from EPAM </p>
-© 2022
