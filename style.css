@@ -1,3 +1,110 @@
-.info {
-  color: #5263f3;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background: url(assets/img/Background.svg) no-repeat center top / cover;
+
+}
+
+footer {
+    background: url(assets/img/Background.svg) no-repeat center top / cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.git {
+    width: 10%;
+    float: left;
+
+}
+.rss {
+    width: 20%;
+    float: right;
+
+}
+
+.footer-yaer {
+    text-align: center;
+    padding-top: 46px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    border-radius: 50%;
+    text-align: center;
+    margin: 30px auto;
+    float: left;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+nav {
+    float: right;
+    margin-top: 50px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.title_first {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: right;
+}
+
+.title {
+    padding-top: 50px;
+
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title p {
+    font-size: 16px;
+}
+
+.title ul {
+    text-align: left;
+    padding-left: 0;
 }
